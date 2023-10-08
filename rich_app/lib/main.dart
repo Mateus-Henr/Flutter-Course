@@ -5,7 +5,7 @@ void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // Flutter team advises to put a comma after every closing parethesis.
+  // Flutter team advises to put a comma after every closing parenthesis.
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
