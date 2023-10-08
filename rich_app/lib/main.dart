@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.blueGrey[600],
         body: const Center(
             child: Image(
-          image: NetworkImage("https://picsum.photos/1000/500"),
+          image: AssetImage("images/diamond.png"),
           alignment: Alignment.center,
         )),
       ),
