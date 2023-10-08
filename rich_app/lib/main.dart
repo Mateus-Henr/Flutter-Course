@@ -8,10 +8,21 @@ class MyApp extends StatelessWidget {
   // Flutter team advises to put a comma after every closing parenthesis.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: "Main Page",
-      home: Center(
-        child: Text("Hello World"),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Center(
+            child: Text("I am Rich"),
+          ),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        backgroundColor: Colors.blueGrey[600],
+        body: const Center(
+            child: Image(
+          image: NetworkImage("https://picsum.photos/1000/500"),
+          alignment: Alignment.center,
+        )),
       ),
     );
   }
